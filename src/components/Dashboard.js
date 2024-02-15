@@ -130,7 +130,7 @@ export default function Dashboard(props) {
 									<option value="500">500 - Internal Server Error</option>
 									<option value="502">502 - Bad Gateway</option>
 									<option value="503">503 - Service Unavailable</option>
-									<option value="others">Others</option>
+									<option value="others"> Others </option>
 								</select>
 							</div>
 							{formik.touched.status && formik.errors.status && <div className="text-danger">{formik.errors.status}</div>}
